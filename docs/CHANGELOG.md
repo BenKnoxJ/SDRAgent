@@ -7,3 +7,9 @@
 - Added `/schemas/sdr-package.schema.json` (master schema for SDR outputs)
 - Added `/samples/campaign.input.sample.json` (seed input)
 - Decision: all agent outputs must validate against these schemas
+
+# Action: OpenAI Files & Vector Store
+- Created Vector Store: sdr-agent-knowledge-base
+- Uploaded persona sheets, case studies, sales frameworks, and product brochures
+- Recorded all File IDs and Vector Store ID in `docs/files.md`
+- Decision: This Vector Store will be linked to each campaign run for grounding
