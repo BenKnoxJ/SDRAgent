@@ -13,3 +13,8 @@
 - Uploaded persona sheets, case studies, sales frameworks, and product brochures
 - Recorded all File IDs and Vector Store ID in `docs/files.md`
 - Decision: This Vector Store will be linked to each campaign run for grounding
+
+# Commit: prompts
+- Added `/prompts/system.sdr.md` (role, style, workflow, grounding)
+- Added `/prompts/fewshots.md` (example outputs)
+- Decision: all campaign runs will use these prompts to standardise tone & structure
